@@ -1,14 +1,21 @@
 #include <iostream>
+
 using namespace std;
 
 int main() {
+
+
+    
     double sayi1, sayi2;
     char islem;
     double sonuc;
 
+   
     cout << "=== Basit Hesap Makinesi ===" << endl;
     cout << "Islemler: +  -  *  /" << endl;
 
+    
+    
     cout << "Birinci sayiyi gir: ";
     cin >> sayi1;
 
@@ -18,20 +25,31 @@ int main() {
     cout << "Ikinci sayiyi gir: ";
     cin >> sayi2;
 
+    
+    
     switch (islem) {
-    case '+':
+   
+        
+        case '+':
         sonuc = sayi1 + sayi2;
         cout << "Sonuc: " << sonuc << endl;
         break;
-    case '-':
+   
+        
+        
+        case '-':
         sonuc = sayi1 - sayi2;
         cout << "Sonuc: " << sonuc << endl;
         break;
-    case '*':
+   
+        
+        case '*':
         sonuc = sayi1 * sayi2;
         cout << "Sonuc: " << sonuc << endl;
         break;
-    case '/':
+    
+        
+        case '/':
         if (sayi2 != 0)
             cout << "Sonuc: " << sayi1 / sayi2 << endl;
         else
@@ -43,3 +61,4 @@ int main() {
 
     return 0;
 }
+
