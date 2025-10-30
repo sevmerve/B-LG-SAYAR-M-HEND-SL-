@@ -10,4 +10,5 @@ int main() {
     double sonuc = a - b;
     cout << a << " - " << b << " = " << sonuc << endl;
     return 0;
+
 }
